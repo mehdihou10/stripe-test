@@ -57,7 +57,7 @@ const CheckoutPage = ({amount}) => {
         clientSecret,
         confirmParams: {
 
-            return_url: `http://localhost:3000/payment-success?amount=${amount}`
+            return_url: `https://stripe-test-nu.vercel.app/payment-success?amount=${amount}`
           
         },
       });
